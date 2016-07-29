@@ -17,7 +17,6 @@
 		47E5D0621D4B9E56009D3180 /* F1.h in Headers */ = {isa = PBXBuildFile; fileRef = 47E5D0611D4B9E56009D3180 /* F1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47E5D0661D4B9E56009D3180 /* F1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E5D05F1D4B9E56009D3180 /* F1.framework */; };
 		47E5D0671D4B9E56009D3180 /* F1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 47E5D05F1D4B9E56009D3180 /* F1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		91ED9B011832D1EB699BA96F /* Pods_CocoapodsFrameworkBug_F1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C60EBB62E38EE3D989FCF53 /* Pods_CocoapodsFrameworkBug_F1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +44,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		169178C8D31F16589B796034 /* Pods-CocoapodsFrameworkBug-F1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsFrameworkBug-F1.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsFrameworkBug-F1/Pods-CocoapodsFrameworkBug-F1.release.xcconfig"; sourceTree = "<group>"; };
 		3251C1BD2EEE50AB8CF6923E /* Pods-CocoapodsFrameworkBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsFrameworkBug.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsFrameworkBug/Pods-CocoapodsFrameworkBug.release.xcconfig"; sourceTree = "<group>"; };
 		47C8298F1D4B9F97000583D6 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		47E5D0451D4B9DDA009D3180 /* CocoapodsFrameworkBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodsFrameworkBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,7 +58,6 @@
 		47E5D0631D4B9E56009D3180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		766D39155438B8105F06464E /* Pods_CocoapodsFrameworkBug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsFrameworkBug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C60EBB62E38EE3D989FCF53 /* Pods_CocoapodsFrameworkBug_F1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodsFrameworkBug_F1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9DD2A688118E941B3CF09FFF /* Pods-CocoapodsFrameworkBug-F1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsFrameworkBug-F1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsFrameworkBug-F1/Pods-CocoapodsFrameworkBug-F1.debug.xcconfig"; sourceTree = "<group>"; };
 		F46C6AD3E366DE290F5596BE /* Pods-CocoapodsFrameworkBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodsFrameworkBug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CocoapodsFrameworkBug/Pods-CocoapodsFrameworkBug.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91ED9B011832D1EB699BA96F /* Pods_CocoapodsFrameworkBug_F1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,8 +86,6 @@
 			children = (
 				F46C6AD3E366DE290F5596BE /* Pods-CocoapodsFrameworkBug.debug.xcconfig */,
 				3251C1BD2EEE50AB8CF6923E /* Pods-CocoapodsFrameworkBug.release.xcconfig */,
-				9DD2A688118E941B3CF09FFF /* Pods-CocoapodsFrameworkBug-F1.debug.xcconfig */,
-				169178C8D31F16589B796034 /* Pods-CocoapodsFrameworkBug-F1.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -498,7 +492,6 @@
 		};
 		47E5D0681D4B9E56009D3180 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9DD2A688118E941B3CF09FFF /* Pods-CocoapodsFrameworkBug-F1.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -521,7 +514,6 @@
 		};
 		47E5D0691D4B9E56009D3180 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 169178C8D31F16589B796034 /* Pods-CocoapodsFrameworkBug-F1.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;

@@ -6,6 +6,4 @@ target 'CocoapodsFrameworkBug' do
   use_frameworks!
   pod 'Appsee'
 
-  target 'F1' do
-  end
 end
