@@ -6,7 +6,10 @@ target 'CocoapodsFrameworkBug' do
   use_frameworks!
 
   pod 'Appsee'
-  pod 'DateTools'
+  
+  target 'F1' do
+      pod 'DateTools'
+  end
   # Pods for CocoapodsFrameworkBug
 
 end

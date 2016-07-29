@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-CocoapodsFrameworkBug-F1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CocoapodsFrameworkBug.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5AFE1CF3DEF3D0FB57650FAE6C60D3BA</key>
+		<key>8C507C67408DC417DCA356AB4A68EC89</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>AFEDA8059B169E4068B6DCC4D2F0B0E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FF594D58A43DBE4C3583511D0EF34CFB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
